@@ -1,0 +1,47 @@
+body {
+	background-color: #f2f2f2;
+}
+
+#nav {
+	margin: 0 .5em 0 0;
+	transition: transform 330ms ease;
+	font-family: tahoma;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav li {
+	display: inline;
+	float: right;
+}
+
+#nav li a {
+	display: block;
+	text-align: center;
+	padding: 1em 1em;
+	text-decoration: none;
+}
+
+#nav li a:link {
+	color: black;
+}
+
+#nav li a:visited {
+	color: black;
+}
+
+#nav li a:hover {
+	transform: scale(1.2);
+}
+
+#nav li a:active {
+	transform: scale(1.2);
+}
+
+#background {
+	margin: 25em 0 0 0;
+}
